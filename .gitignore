@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# dll files and bin folder
+*.dll
+*.pdb
+./src/Gambito.Domain/bin
+./src/Gambito.Domain/obj

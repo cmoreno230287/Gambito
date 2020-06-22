@@ -1,0 +1,11 @@
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\Gambito.Domain.dll.config
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\Gambito.Domain.dll
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\Gambito.Domain.pdb
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\Newtonsoft.Json.dll
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\System.Net.Http.Extensions.dll
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\System.Net.Http.Formatting.dll
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\System.Net.Http.Primitives.dll
+E:\Proyectos\Gambito\src\Gambito.Domain\bin\Debug\Newtonsoft.Json.xml
+E:\Proyectos\Gambito\src\Gambito.Domain\obj\Debug\Gambito.Domain.csproj.CopyComplete
+E:\Proyectos\Gambito\src\Gambito.Domain\obj\Debug\Gambito.Domain.dll
+E:\Proyectos\Gambito\src\Gambito.Domain\obj\Debug\Gambito.Domain.pdb
