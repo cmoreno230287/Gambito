@@ -108,3 +108,7 @@ dist
 *.pdb
 ./src/Gambito.Domain/bin
 ./src/Gambito.Domain/obj
+./src/Gambito.Infraestructure/bin
+./src/Gambito.Infraestructure/obj
+./src/Gambito.Application/bin
+./src/Gambito.Application/obj

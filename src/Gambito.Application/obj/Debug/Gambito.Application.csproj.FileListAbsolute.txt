@@ -1,0 +1,9 @@
+E:\Proyectos\Gambito\src\Gambito.Application\bin\Debug\Gambito.Application.dll
+E:\Proyectos\Gambito\src\Gambito.Application\bin\Debug\Gambito.Application.pdb
+E:\Proyectos\Gambito\src\Gambito.Application\bin\Debug\Gambito.Domain.dll
+E:\Proyectos\Gambito\src\Gambito.Application\bin\Debug\Gambito.Domain.pdb
+E:\Proyectos\Gambito\src\Gambito.Application\bin\Debug\Gambito.Domain.dll.config
+E:\Proyectos\Gambito\src\Gambito.Application\obj\Debug\Gambito.Application.csprojAssemblyReference.cache
+E:\Proyectos\Gambito\src\Gambito.Application\obj\Debug\Gambito.Application.csproj.CopyComplete
+E:\Proyectos\Gambito\src\Gambito.Application\obj\Debug\Gambito.Application.dll
+E:\Proyectos\Gambito\src\Gambito.Application\obj\Debug\Gambito.Application.pdb
