@@ -1,0 +1,31 @@
+
+<div class="example-container"> 
+    <mat-toolbar color="primary" class="example-toolbar">
+        <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+        <h1 class="example-app-name">Gambito</h1>
+    </mat-toolbar>
+
+    <mat-sidenav-container class="example-sidenav-container">
+        <mat-sidenav #snav opened mode="side" class="gambito-sidenav">          
+          <mat-nav-list class="gambito-navlist">
+            <a mat-list-item>
+                <span class="material-icons">book</span>
+                <span class="gambito-textitem">Estudiar</span>           
+            </a>
+            <a mat-list-item>
+                <span class="material-icons">calendar_today</span>
+                <span class="gambito-textitem">Horarios de Estudio</span>           
+            </a>
+            <a mat-list-item>
+                <span class="material-icons">perm_identity</span>
+                <span class="gambito-textitem">Perfil</span>           
+            </a>
+        </mat-nav-list>
+        </mat-sidenav>  
+        <mat-sidenav-content class="gambito-content">
+            <div class="gambito-container-content">
+                <router-outlet></router-outlet>
+            </div>
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+  </div>

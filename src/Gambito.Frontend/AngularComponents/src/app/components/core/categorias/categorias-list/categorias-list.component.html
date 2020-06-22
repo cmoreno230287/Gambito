@@ -1,0 +1,26 @@
+<mat-toolbar class="gambito-toolbar">
+    <mat-toolbar-row>
+        <div class="gambito-toolbar-left">            
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="Buscar categoria" #box value="" (keyup)="getCategorias(box.value)">
+                <span class="material-icons">search</span>
+            </mat-form-field>
+        </div>
+        <div class="gambito-toolbar-right">
+            <button mat-fab color="primary" class="gambito-toolbar-button">
+                <mat-icon>add</mat-icon>
+            </button>  
+        </div>          
+    </mat-toolbar-row>
+</mat-toolbar>
+<div class="gambito-categorias-container">
+    <mat-card class="gambito-card" *ngFor="let categoria of categorias">
+        <mat-card-header>            
+            <mat-card-title>{{categoria.categoria_nm}}</mat-card-title>            
+            <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content class="gambito-card-content">  
+            {{categoria.categoria_ds}}          
+        </mat-card-content>
+    </mat-card>
+</div>

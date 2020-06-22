@@ -1,0 +1,53 @@
+.gambito-card {
+    margin-bottom: 2px;
+    height: 50px;
+  }
+
+  .gambito-categorias-container{
+      height-max: 600px;
+      overflow-y: auto;
+      padding-top: 3px;
+      padding-right: 3px;
+      padding-left: 3px;
+      background-color: #eae8e7;
+  }
+
+  .gambito-categorias-toolbar{
+    margin-bottom: 20px;
+  }
+
+  .gambito-toolbar-left{
+    display: inline;
+    text-align: left;
+    width: 50%;
+  }
+
+  .gambito-toolbar-right{
+    display: inline;
+    text-align: right;
+    width: 50%;
+  }
+
+  .gambito-card-content {
+    margin-left: 15px;
+  }
+
+  /* width */
+  .gambito-categorias-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .gambito-categorias-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .gambito-categorias-container::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .gambito-categorias-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
