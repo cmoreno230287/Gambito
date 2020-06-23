@@ -1,0 +1,69 @@
+.boxes-container{
+    width: 95%;
+    margin-top: 20px;
+}
+
+.box-content{
+    display: inline-block;
+    vertical-align: top;
+    height-max: 600px;
+    width: 32%;
+    height: 600px;
+    background-color: #ccc;
+    margin-right: 5px;/*    
+    padding-left: 1px;
+    padding-right: 1px;*/
+}
+
+.box-head{
+    display: inline-block;
+    vertical-align: top;
+    height-max: 32px;
+    width: 32%;
+    background-color: #ccc;
+    margin-right: 5px;  
+    text-align: center; 
+    padding-top: 3px;   
+    padding-bottom: 3px;   
+    font-size: 14px;
+}
+
+.box-head-container{
+    margin-bottom: 10px;
+}
+
+.gambito-categorias-toolbar{
+    margin-bottom: 20px;
+  }
+
+  .gambito-toolbar-left{
+    display: inline;
+    text-align: left;
+    width: 50%;
+  }
+
+  .gambito-toolbar-right{
+    display: inline;
+    text-align: right;
+    width: 43%;
+  }
+
+  /* width */
+  .gambito-categorias-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .gambito-categorias-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .gambito-categorias-container::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .gambito-categorias-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

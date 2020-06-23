@@ -41,13 +41,17 @@ import {PrincipalComponent} from './components/principal/principal.component';
 import {CategoriasListComponent} from './components/core/categorias/categorias-list/categorias-list.component';
 import {CategoriasToolbarComponent} from './components/core/categorias/categorias-toolbar/categorias-toolbar.component';
 import {CategoriasServiceService} from './services/gambito-services';
+import { BoxManagerComponent } from './components/core/box/box-manager/box-manager.component';
+import { CategoriasSaveComponent } from './components/core/categorias/categorias-save/categorias-save.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
     CategoriasListComponent,
-    CategoriasToolbarComponent
+    CategoriasToolbarComponent,
+    BoxManagerComponent,
+    CategoriasSaveComponent
   ],
   imports: [
     APP_ROUTING,

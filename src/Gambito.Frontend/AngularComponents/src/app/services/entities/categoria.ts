@@ -6,3 +6,4 @@ export class Categoria {
   tercero_id: number;
   activo_ind: number;
 }
+

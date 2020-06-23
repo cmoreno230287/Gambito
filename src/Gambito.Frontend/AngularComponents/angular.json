@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "V2"
+  "defaultProject": "V2",
+  "cli": {
+    "analytics": false
+  }
 }
