@@ -17,11 +17,11 @@
         <div class="box-head">Prioridad Media</div>
         <div class="box-head">Prioridad Baja</div>
     </div>
-    <div class="box-content-container">
-        <div class="box-content" data-value="1">
-            <div class="box-card">
+    <div class="box-content-container" cdkDropListGroup>
+        <div class="box-content" cdkDropList [cdkDropListData]="B1" (cdkDropListDropped)="drop($event)">
+            <div class="box-card" *ngFor="let itm of B1" cdkDrag>
                 <div class="box-card-title">
-                    Titulo
+                    {{itm}}
                 </div>
                 <div class="box-card-content">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -31,7 +31,32 @@
                 </div>
             </div>
         </div>
-        <div class="box-content" data-value="2"></div>
-        <div class="box-content" data-value="3"></div>
+        <div class="box-content" cdkDropList [cdkDropListData]="B2" (cdkDropListDropped)="drop($event)">
+
+            <div class="box-card" *ngFor="let itm of B2" cdkDrag>
+                <div class="box-card-title">
+                    {{itm}}
+                </div>
+                <div class="box-card-content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </div>
+                <div class="box-card-footer">
+
+                </div>
+            </div>
+        </div>
+        <div class="box-content" data-value="3" cdkDropList [cdkDropListData]="B3" (cdkDropListDropped)="drop($event)">
+            <div class="box-card" *ngFor="let itm of B3" cdkDrag>
+                <div class="box-card-title">
+                    {{itm}}
+                </div>
+                <div class="box-card-content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </div>
+                <div class="box-card-footer">
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
